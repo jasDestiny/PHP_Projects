@@ -1,0 +1,184 @@
+body
+{
+
+  height:100%;
+  width:100%;
+  background: linear-gradient(150.64deg, #EFF2AC 0%, #F1F4B7 49.5%, #FFFFFF 100%);
+font-family: Calibri, Helvetica, sans-serif;}
+
+.buttona
+{
+  position: absolute;
+  left: 7.21%;
+  right: 82.7%;
+  top: 28.1%;
+  bottom: 43.49%;
+
+  height:20%;
+  width:25%;
+  border-radius: 17px;
+  background-color: #ffffff;
+
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 85px;
+
+  z-index: -1;
+  border:none;
+font-family: Calibri, Helvetica, sans-serif;}
+
+.buttonb
+{
+  position: absolute;
+  left: 45.21%;
+  right: 82.7%;
+  top: 28.1%;
+  bottom: 43.49%;
+
+  height:20%;
+  width:25%;
+  border-radius: 17px;
+  background-color: #ffffff;
+
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 85px;
+
+  z-index:-1;
+  border:none;
+font-family: Calibri, Helvetica, sans-serif;}
+
+.buttonc
+{
+  position: absolute;
+  left: 7.21%;
+  right: 82.7%;
+  top: 58.1%;
+  bottom: 43.49%;
+
+  height:20%;
+  width:25%;
+  border-radius: 17px;
+  background-color: #ffffff;
+
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 85px;
+  border:none;
+font-family: Calibri, Helvetica, sans-serif;}
+
+
+.buttond
+{
+  position: absolute;
+  left: 45.21%;
+  right: 82.7%;
+  top: 58.1%;
+  bottom: 43.49%;
+
+  height:20%;
+  width:25%;
+  border-radius: 17px;
+  background-color: #ffffff;
+
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 85px;
+  border:none;
+font-family: Calibri, Helvetica, sans-serif;}
+
+
+.continue
+{
+  position: absolute;
+  left: 30.21%;
+  right: 82.7%;
+  top: 84.1%;
+  bottom: 43.49%;
+
+  height:6%;
+  width:17%;
+  border-radius: 35px;
+  color: #ffffff;
+  background-color: #EA5D5D;
+
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 60px;
+  padding-bottom:4%;
+
+  padding-left: 5%;
+  padding-right:5%;
+border:none;
+font-family: Calibri, Helvetica, sans-serif;}
+
+.questions
+{
+  position: absolute;
+left: 7.21%;
+right: 88.2%;
+top: 2%;
+bottom: 47.43%;
+
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 60px;
+line-height: 60px;
+
+/* identical to box height */
+
+color: #333333;
+font-family: Calibri, Helvetica, sans-serif;}
+
+.q
+{
+  position: absolute;
+  left: 7.21%;
+  right: 93.65%;
+  top: 12.91%;
+  bottom: 46.4%;
+
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+
+  /* identical to box height */
+
+  color: #000000;
+
+font-family: Calibri, Helvetica, sans-serif;}
+
+.questionx
+{
+  position: absolute;
+  left: 11.62%;
+  right: 81.44%;
+  top: 14.91%;
+  bottom: 15.51%;
+
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 48px;
+
+  height:0%;
+  width:80%;
+
+  /* identical to box height */
+
+  color: #000000;
+font-family: Calibri, Helvetica, sans-serif;}

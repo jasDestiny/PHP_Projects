@@ -1,0 +1,109 @@
+.svg{
+
+  position: absolute;
+  left: 0%;
+  right: 5.28%;
+  top: 0%;
+  bottom: 89.74%;
+
+  height:100%;
+  width:100%;
+  background: linear-gradient(150.64deg, #EBFEFF 0%, #FFFFFF 100%);
+font-family: Calibri, Helvetica, sans-serif;}
+
+.outer{
+	position:absolute;
+	left:0%;
+	top:0%;
+	height:70%;
+	width:70%;
+font-family: Calibri, Helvetica, sans-serif;}
+.efu
+{
+  position: absolute;
+  left: 12.36%;
+  right: 90.95%;
+  top: 7.72%;
+  bottom: 98.71%;
+
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 60px;
+
+  /* identical to box height */
+
+  color: #333333;
+font-family: Calibri, Helvetica, sans-serif;}
+.login
+{
+  position: absolute;
+  left: 120.66%;
+  right: 60.22%;
+  top: 8.72%;
+  bottom: 98.77%;
+
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 45px;
+
+  color: #333333;
+font-family: Calibri, Helvetica, sans-serif;}
+
+.signup
+  {
+  position: absolute;
+  left: 130.53%;
+  right: 55.11%;
+  top: 8.72%;
+  bottom: 98.77%;
+
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 45px;
+
+  width: 10%;
+
+  color: #333333;
+font-family: Calibri, Helvetica, sans-serif;}
+
+.image
+{
+  position: absolute;
+  left: 95.66%;
+  right: 57.98%;
+  top: 35.4%;
+  bottom: 92.14%;
+  
+  
+
+  background: url(flame-upgrade.png);
+font-family: Calibri, Helvetica, sans-serif;}
+
+.plbt
+{
+position: absolute;
+left: 14.38%;
+right: 76.96%;
+top: 60.68%;
+bottom: 94.41%;
+
+font-family: SF Pro Text;
+font-style: normal;
+font-weight: 300;
+font-size: 50px;
+line-height: 95px;
+
+color: #484848;
+font-family: Calibri, Helvetica, sans-serif;}
+
+.yeruma
+{
+  color: #EBFEFF;
+font-family: Calibri, Helvetica, sans-serif;}
+

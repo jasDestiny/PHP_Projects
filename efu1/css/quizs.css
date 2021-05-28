@@ -1,0 +1,320 @@
+html{
+  background: linear-gradient(150.64deg, #F2B6AC 0%, #F7D0C9 72%, #FFFFFF 100%);
+font-family: Calibri, Helvetica, sans-serif;}
+
+.right{
+  position:absolute;
+
+  left:18%;
+  right:80%;
+
+  height:100%;
+  width:82%;
+
+font-family: Calibri, Helvetica, sans-serif;}
+.dashboard{
+
+  position:absolute;
+
+  left:0%;
+  right:18%;
+  top:0%;
+
+  height:100%;
+  width: 17%;
+
+  background: #FFFFFF;
+font-family: Calibri, Helvetica, sans-serif;}
+.qtitle{
+  position: absolute;
+  left: 10.21%;
+  right: 122.02%;
+  top: 9.18%;
+  bottom: 60.25%;
+
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 60px;
+
+  /* identical to box height */
+
+  color: #FFFFFF;
+font-family: Calibri, Helvetica, sans-serif;}
+
+.text{
+  position: absolute;
+  left: 10.21%;
+  right: 82.07%;
+  top: 22.25%;
+  bottom: 59.3%;
+
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 48px;
+
+  width:40%;
+
+  /* identical to box height */
+
+  color: #FFFFFF;
+font-family: Calibri, Helvetica, sans-serif;}
+
+.flappy{
+  position: absolute;
+  left: 10.21%;
+  right: 78.03%;
+  top: 37.78%;
+  bottom: 56.6%;
+
+  height: 15%;
+  width:33%;
+
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 60px;
+
+  color: #FFFFFF;
+
+  /* identical to box height */
+
+  color: #FFFFFF;
+
+  border-radius:20px;
+
+
+  background: #4CD1DD;
+
+    border: none;
+font-family: Calibri, Helvetica, sans-serif;}
+
+.mario{
+  position: absolute;
+  left: 10.21%;
+  right: 78.03%;
+  top: 55.69%;
+  bottom: 54.7%;
+
+  height: 15%;
+  width:33%;
+
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 60px;
+
+  border-radius:20px;
+  /* identical to box height */
+
+  color: #C90D0D;
+
+  background: #FAF3E3;
+
+    border: none;
+font-family: Calibri, Helvetica, sans-serif;}
+
+.tom{
+  position: absolute;
+  left: 10.21%;
+  right: 78.03%;
+  top: 74.59%;
+  bottom: 52.8%;
+
+  height: 15%;
+  width:33%;
+
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 60px;
+
+  border-radius:20px;
+
+  /* identical to box height */
+  color: #876402;
+  background: #FADA80;
+
+  border: none;
+font-family: Calibri, Helvetica, sans-serif;}
+
+
+.imario{
+  position: absolute;
+  left:5%;
+
+  border-radius: 10px;
+font-family: Calibri, Helvetica, sans-serif;}
+
+.rect{
+  position: absolute;
+  left:5%;
+
+  border-radius: 10px;
+font-family: Calibri, Helvetica, sans-serif;}
+
+.avatar{
+  position:absolute;
+  border-radius:50%;
+
+  top:5%;
+  left:32%;
+
+
+  height:10%;
+  width:30%;
+font-family: Calibri, Helvetica, sans-serif;}
+
+
+.a{
+  position:relative;
+  left: 27%;
+  right: 40.17%;
+  top: 20.47%;
+  bottom: 59.22%;
+
+  padding-top:2.5%;
+
+  height:5%;
+  width:60%;
+font-family: Calibri, Helvetica, sans-serif;}
+
+a{
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight:370;
+  font-size: 27px;
+  line-height: 32px;
+
+  text-decoration: none;
+
+  color: #707070;
+font-family: Calibri, Helvetica, sans-serif;}
+
+
+.grey{
+  position:absolute;
+  top:70%;
+  left:15%;
+  background: #f5f5f5;
+
+  height:25%;
+  width:70%;
+
+  border-radius:20%;
+font-family: Calibri, Helvetica, sans-serif;}
+
+.u{
+  position: absolute;
+  left: 22.57%;
+  right: 36.2%;
+  top: 12.17%;
+  bottom: 53.6%;
+
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 25px;
+
+  width:60%;
+
+  /* identical to box height */
+
+  color: #484848;
+
+font-family: Calibri, Helvetica, sans-serif;}
+
+.p{
+  position: absolute;
+  left: 18.57%;
+  right: 36.2%;
+  top: 32.17%;
+  bottom: 53.6%;
+
+  width:100%;
+
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+
+  width:100%;
+
+  text-align:left;
+  font-weight: 600;
+
+
+  /* identical to box height */
+
+  color:#050505;
+font-family: Calibri, Helvetica, sans-serif;}
+
+.b{
+  position: absolute;
+  left: 15.6%;
+  right: 39.98%;
+  top: 67.04%;
+  bottom: 52.43%;
+
+  height:25%;
+  width:70%;
+
+  color:white;
+
+  border:none;
+  border-radius: 10px;
+
+  font-size:120%;
+
+  font-weight: 200;
+
+  background: #2D49FF;
+font-family: Calibri, Helvetica, sans-serif;}
+
+
+.dash{
+  position:absolute;
+  height:5.9%;
+  width:17.8%;
+
+  top:23.4%;
+  left:3.9%;
+font-family: Calibri, Helvetica, sans-serif;}
+
+.quiz{
+  position:absolute;
+  height:7%;
+  width:21%;
+
+  top:32.5%;
+  left:2.4%;
+
+font-family: Calibri, Helvetica, sans-serif;}
+
+.cour{
+  position:absolute;
+  height:5.9%;
+  width:17.8%;
+
+  top:40.74%;
+  left:3.9%;
+
+font-family: Calibri, Helvetica, sans-serif;}
+
+.lear{
+  position:absolute;
+  height:5.9%;
+  width:17.8%;
+
+  top:49%;
+  left:4.5%;
+
+font-family: Calibri, Helvetica, sans-serif;}

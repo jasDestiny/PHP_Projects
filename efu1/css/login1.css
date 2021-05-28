@@ -1,0 +1,208 @@
+html{
+  background-color:#ffffff;
+font-family: Calibri, Helvetica, sans-serif;}
+
+.mainbox{
+  position: absolute;
+  left: 0.00%;
+  right: 76.65%;
+  top: 0%;
+  bottom: 76.92%;
+
+  height:100%;
+  width:40%;
+
+  background: #EEF0F2;
+font-family: Calibri, Helvetica, sans-serif;}
+
+
+.login{
+  position: absolute;
+  left: 34.42%;
+  right: 86.06%;
+  top: 21.39%;
+  bottom: 83.86%;
+
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 78px;
+
+  width:100%;
+
+  /* identical to box height */
+
+  color: #876402;
+
+font-family: Calibri, Helvetica, sans-serif;}
+
+.signup{
+  position: absolute;
+  left: 30.42%;
+  right: 86.06%;
+  top: 12.39%;
+  bottom: 83.86%;
+
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 78px;
+
+  width:100%;
+
+  /* identical to box height */
+
+  color: #876402;
+
+font-family: Calibri, Helvetica, sans-serif;}
+
+.textbox{
+
+position: absolute;
+left: 22.72%;
+right: 83.31%;
+top: 41.46%;
+bottom: 81.93%;
+
+height:5%;
+width:43%;
+
+border-radius: 20px;
+border:none;
+
+background: #FFFFFF;
+
+text-align: center;
+
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+
+font-family: Calibri, Helvetica, sans-serif;}
+
+.textboxs{
+
+position: absolute;
+left: 15.72%;
+right: 83.31%;
+top: 31.46%;
+bottom: 81.93%;
+
+height:5%;
+width:60%;
+
+border: none;
+
+border-bottom: 1px solid #707070;
+
+background:transparent;
+
+text-align: center;
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+
+font-family: Calibri, Helvetica, sans-serif;}
+
+
+.passbox{
+
+position: absolute;
+left: 22.72%;
+right: 83.31%;
+top: 49.46%;
+bottom: 81.93%;
+
+height:5%;
+width:43%;
+
+border-radius: 20px;
+border:none;
+
+background: #FFFFFF;
+
+text-align: center;
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+
+font-family: Calibri, Helvetica, sans-serif;}
+
+::placeholder
+{
+  font-size: 150%;
+  text-align: center;
+font-family: Calibri, Helvetica, sans-serif;}
+
+.button{
+  position: absolute;
+  left: 27.62%;
+  right: 84.21%;
+  top: 65.98%;
+  bottom: 79.45%;
+
+  height: 5%;
+  width:34%;
+
+  color:white;
+
+  border-radius:20px;
+  border:none;
+  border:none;
+
+  background-color: #2B4162;
+
+
+font-family: Calibri, Helvetica, sans-serif;}
+
+
+.button2{
+  position: absolute;
+  left: 27.62%;
+  right: 84.21%;
+  top: 81.98%;
+  bottom: 79.45%;
+
+  height: 5%;
+  width:34%;
+
+  color:white;
+
+  border-radius:20px;
+  border:none;
+
+  background-color: #2B4162;
+
+
+font-family: Calibri, Helvetica, sans-serif;}
+
+
+
+
+.textboxs1{
+
+position: relative;
+left: 15.72%;
+right: 83.31%;
+top: 31.46%;
+bottom: 81.93%;
+
+height:5%;
+width:60%;
+
+border: none;
+
+border-bottom: 1px solid #707070;
+
+background:transparent;
+
+text-align: center;
+
+padding-top:2.5%;
+
+font-family: Calibri, Helvetica, sans-serif;}

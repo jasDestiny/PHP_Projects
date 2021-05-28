@@ -1,0 +1,361 @@
+html{
+  background: linear-gradient(155.72deg, #ACF0F2 8.81%, #BDF3F5 54.59%, #FFFFFF 100%);
+}
+
+
+	
+.right{
+  position:absolute;
+
+  left:18%;
+  right:80%;
+
+  height:100%;
+  width:100%;
+
+}
+.dashboard{
+
+  position:absolute;
+
+  left:0%;
+  right:18%;
+  top:0%;
+
+  height:100%;
+  width: 17%;
+
+  background: #FFFFFF;
+}
+.qtitle{
+  position: absolute;
+  left: 10.21%;
+  right: 122.02%;
+  top: 9.18%;
+  bottom: 60.25%;
+
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 60px;
+  
+  font-family: Calibri, Helvetica, sans-serif;
+
+  /* identical to box height */
+
+  color: #414141;
+}
+
+.text{
+  position: absolute;
+  left: 10.21%;
+  right: 82.07%;
+  top: 42.25%;
+  bottom: 59.3%;
+
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 48px;
+  font-family: Calibri, Helvetica, sans-serif;
+
+  width:50%;
+
+  /* identical to box height */
+
+  color: #484848;
+}
+
+.flappy{
+  position: absolute;
+  left: 10.21%;
+  right: 78.03%;
+  top: 75.78%;
+  bottom: 56.6%;
+
+  height: 10.71%;
+  width:16.5%;
+
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 35px;
+  line-height: 60px;
+  font-family: Calibri, Helvetica, sans-serif;
+
+  color: #FFFFFF;
+
+  /* identical to box height */
+
+  color: #FFFFFF;
+
+  border-radius:20px;
+
+
+  background: #4CD1DD;
+
+    border: none;
+}
+
+.mario{
+  position: absolute;
+  left: 31.21%;
+  right: 78.03%;
+  top: 75.78%;
+  bottom: 52.8%;
+
+  height: 10.71%;
+  width:16.5%;
+
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 35px;
+  line-height: 60px;
+  text-align: center;
+  font-family: Calibri, Helvetica, sans-serif;
+
+  border-radius:20px;
+  /* identical to box height */
+
+  color: #C90D0D;
+
+  background: #FAF3E3;
+
+    border: none;
+}
+
+.tom{
+  position: absolute;
+  left: 52.21%;
+  right: 78.03%;
+  top: 75.78%;
+  bottom: 52.8%;
+  border-radius:20px;
+  background: #FADA80;
+  border: none;
+
+  height: 10.71%;
+  width:16.5%;
+
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: 200;
+  font-size:20px;
+  line-height: 36px;
+  text-align:center;
+  font-family: Calibri, Helvetica, sans-serif;
+
+  /* identical to box height */
+
+  color: #876402;
+
+
+}
+
+
+.rect{
+  position: absolute;
+  left:5%;
+  top:10%;
+
+  border-radius: 10px;
+  background-color: white;
+  color:black;
+
+  font-family: Times New Roman;
+
+}
+
+.sf{
+  position: absolute;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 60px;
+  width:25%;
+  border-radius: 10px;
+
+  top:10%;
+
+  background: white;
+
+
+  /* identical to box height */
+
+  color: #000000;
+
+}
+.imario{
+  position: absolute;
+  left:5%;
+  top:15%;
+
+  width:25%;
+  height:70%;
+
+  border-radius: 10px;
+}
+
+.avatar{
+  position:absolute;
+  border-radius:50%;
+
+  top:5%;
+  left:32%;
+
+
+  height:10%;
+  width:30%;
+}
+
+
+.a{
+  position:relative;
+  left: 27%;
+  right: 40.17%;
+  top: 20.47%;
+  bottom: 59.22%;
+
+  padding-top:2.5%;
+
+  height:5%;
+  width:60%;
+}
+
+a{
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight:370;
+  font-size: 27px;
+  line-height: 32px;
+
+  text-decoration: none;
+
+  color: #707070;
+}
+
+
+.grey{
+  position:absolute;
+  top:70%;
+  left:15%;
+  background: #f5f5f5;
+
+  height:25%;
+  width:70%;
+
+  border-radius:20%;
+}
+
+.u{
+  position: absolute;
+  left: 22.57%;
+  right: 36.2%;
+  top: 12.17%;
+  bottom: 53.6%;
+
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 25px;
+
+  width:100%;
+
+  /* identical to box height */
+
+  color: #484848;
+
+}
+
+.p{
+  position: absolute;
+  left: 18.57%;
+  right: 36.2%;
+  top: 32.17%;
+  bottom: 53.6%;
+
+  width:100%;
+
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+
+  width:100%;
+
+  text-align:left;
+  font-weight: 600;
+
+
+  /* identical to box height */
+
+  color:#050505;
+}
+
+.b{
+  position: absolute;
+  left: 15.6%;
+  right: 39.98%;
+  top: 67.04%;
+  bottom: 52.43%;
+
+  height:25%;
+  width:70%;
+
+  color:white;
+
+  border:none;
+  border-radius: 10px;
+
+  font-size:120%;
+
+  font-weight: 200;
+
+  background: #2D49FF;
+}
+
+
+.dash{
+  position:absolute;
+  height:5.9%;
+  width:17.8%;
+
+  top:23.4%;
+  left:3.9%;
+}
+
+.quiz{
+  position:absolute;
+  height:7%;
+  width:21%;
+
+  top:32.5%;
+  left:2.4%;
+
+}
+
+.cour{
+  position:absolute;
+  height:5.9%;
+  width:17.8%;
+
+  top:40.74%;
+  left:3.9%;
+
+}
+
+.lear{
+  position:absolute;
+  height:5.9%;
+  width:17.8%;
+
+  top:49%;
+  left:4.5%;
+
+}

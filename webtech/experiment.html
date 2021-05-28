@@ -1,0 +1,550 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<style>
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background-color:white;
+  margin:1;
+  color:black;
+}
+
+
+.header 
+{
+  padding: 80px;
+  text-align: center;
+  background-image:url("vit.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: black;
+}
+
+
+.input-field:focus {
+  border: 2px solid dodgerblue;*/
+}
+.header h1 {
+  font-size: 50px;
+  font-family:
+}
+.topmenu {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: auto;
+  background-color: #777;
+}
+
+.topmenu li {
+  float: left;
+}
+
+.topmenu li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding:20px 50px;
+  text-decoration: none;
+  font-size:20px;
+}
+
+.topmenu li a:hover {
+  background-color: #222;
+}
+
+.topmenu li a.active {
+  color: white;
+  background-color: #4CAF50;
+}
+
+.column {
+  float: left;
+  padding: 15px;
+}
+
+
+
+.sidemenu {
+  width: 25%;
+}
+.sidemenu ul {
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+}
+
+.sidemenu li a {
+  font-size:25px;
+  color:black;
+  margin-bottom: 10px;
+  display: block;
+  padding:25px;
+  background-color: #eee;
+  text-decoration: none;
+  color: #666;
+}
+
+.sidemenu li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+  background-size:cover;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+.containerb {
+  border: 2px solid #ccc;
+  background-color:#D8BFD8;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0
+}
+.containerc{
+  border: 2px solid #ccc;
+  background-color:#D8BFD8;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0
+}
+
+.containert {
+  border: 2px solid #ccc;
+  background-color:#D8BFD8;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0
+}
+
+.containert::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.containert img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.containert span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+.container img {
+      margin: auto;
+      float: none;
+      display: block;
+  }
+
+
+
+
+form {
+  border: 3px solid #f1f1f1;
+  font-family: Arial;
+}
+
+.container {
+  padding: 12px;
+  background-color: #f1f1f1;
+}
+.containera {
+  padding: 15px;
+  background-color: #AFEEEE;
+}
+.containerf {
+  padding: 15px;
+  background-color: #FFB6C1;
+  border:1px solid:#DB7093;
+}
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=checkbox] {
+  margin-top: 16px;
+}
+;
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+.parah{
+color:#ffeeff;
+font-size:30px;
+font-family:Helvetica;
+}
+.para{
+  color:#ffeeff;
+  font-size:30px;
+  font-family:Helvetica;
+}
+
+color:#ffeeff;
+font-size:20px;
+font-family:Helvetica;
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  height: 500px; 
+}
+
+.left {
+  width: 35%;
+ height: 450px;
+}
+
+.right {
+  width: 65%;
+height: 450px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.banner-image{
+ margin-left: 0px;
+ background-size:cover;
+ }
+
+ .footer1{
+    background-color: black;
+    color:white;
+    font-size: 14px;
+}
+.footer2{
+	
+	margin-left:10px;
+
+}
+
+</style>
+</head>
+<body>
+  <ul class="topmenu">
+  
+<li><a href="#about">About</a></li>
+  <li><a href="#education">Achievements</a></li>
+ <li><a href="#projects">Previous Publications</a></li>
+ <li><a href="register.html">Register</a></li>
+ <li><a href="index.html">Login</a></li>
+  <li><a href="#contact">Contact</a></li>
+  </ul>
+<div class="header">
+ 
+  <h1>Register!!!</h1>
+  <p style= "font-size:30px"><marquee>"Only a few seats left..."</marquee></p>
+</div>
+
+<div class="slideshow-container" align="center">
+<div class="mySlides fade banner-image" >
+  <img src="0.jpeg" width="100%" height="80%">
+</div>
+
+<div class="mySlides fade banner-image">
+  <img src="1.jpg" width="100%" height="80%">
+</div>
+
+<div class="mySlides fade banner-image">
+  <img src="2.jpg" width="100%" height="80%">
+</div>
+
+<div class="mySlides fade banner-image">
+  <img src="3.jpg" width="100%" height="80%">
+</div>
+
+<div class="mySlides fade banner-image">
+  <img src="4.jpg" width="100%" height="80%">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+</script>
+<p></p>
+<a name="about"><h2>ABOUT</h2></a>
+<div class="containera">
+  <p>WT Internationals is an international chapter which specialises in writing papers and publications for the purpose of development new and innovative projects. </p>
+	<p>It also is a platform for many tech and web enthusiasts to come together and build something cool and powerful that could be used in the future</p>
+</div>
+<a name="education"><h2>Club's previous achievments</h2></a>
+<div class="containerf">
+ <p><h2 style="font-size:120%;"><u>The club has published and won various awards and accolodes from the international clubs such as ACM, IEEE, IUPAC, etc..,</u></h2></p>
+<ul>
+
+<li>2018- Best Web Dev Paper of the year(IEEE)</li>           
+<li>2017-Best Technical Chapter in India(Computer Society)</li>
+<li>2016-Best Contribution by a Chapter(ACM India)</li>
+<li>2015-Best Chapter of VIT(VIT Vellore)</li>
+</ul>                          
+</p>
+</div>
+ <ul class="topmenu">
+  <li><a href="experiment.html" class="active">Click to see our previous year publications</a></li>
+<li><a href="#2018" onclick="f2018()">2018</a></li>
+  <li><a href="#2017" onclick="f2017()">2017</a></li>
+ <li><a href="#2016" onclick="f2016()">2016</a></li>
+ <li><a href="#2015" onclick="f2015()">2015</a></li>
+  </ul>
+<a name="projects"><h2>OUR PREVIOUS CONTESTS</h2></a>
+<div class="containerc">
+<div id="2018">
+<h1>2018</h1>
+<img src="11.jpg"></img>
+<p>In 2018, 110 papers were submitted and out of those 90 papers were published</p>
+<p>Our top papers</p>
+<ul>
+<li>Creating alert and popup together</li>
+<li>Securing your devices using biometric</li>
+<li>Detecting radio waves from far away stars</li>
+<li>Measuring concentration of solution accurate to 99 decimal places</li>
+<li>Cybersecurity of satellites</li>
+</div>
+
+<div id="2017">
+<h1>2017</h1>
+<img src="12.jpg"></img>
+<p>In 2017, 67 papers were submitted and out of those 54 papers were published</p>
+<p>Our top papers</p>
+<ul>
+<li>Making supercooled conductors</li>
+<li>AI using quantum computers</li>
+<li>What a journey inside wormhole looks like</li>
+<li>Calculating temperature of higgs boson particle</li>
+<li>Android Bigdata</li>
+</div>
+
+
+<div id="2016">
+<h1>2016</h1>
+<img src="13.jpg"></img>
+<p>In 2017, 84 papers were submitted and out of those 40 papers were published</p>
+<p>Our top papers</p>
+<ul>
+<li>Magnetic monopoles</li>
+<li>AR based shooting game</li>
+<li>Supercooled lased</li>
+<li>Behavior of 2 connected AI chatbots</li>
+<li>Database in Mars</li>
+</div>
+
+<div id="2015">
+<h1>2015</h1>
+<img src="14.jpg"></img>
+<p>In 2017, 40 papers were submitted and out of those 10 papers were published</p>
+<p>Our top papers</p>
+<ul>
+<li>Making of the Ultron</li>
+<li>Is time travel possible?</li>
+<li>What Jupiter's surface looks like</li>
+<li>IOT security</li>
+<li>Apple vs Android</li>
+</div>
+</div>
+</div>
+</div>
+<br>
+<br>
+<br>
+<a name="contact">
+<div class="row">
+  <div class="column left" style="background-color:#aaa;">
+    <h2 class="parah">Contact</h2>
+    <div>
+<table>
+<tr>
+    <td><i class="fa fa-envelope icon"></i></td>
+    <td><h4>wtinternations@gmail.com</h4></td>
+</tr>
+<tr>
+    <td><i class="fa fa-phone envelope icon"></i></td>
+    <td><h4>9360023140</h4></td>
+</tr>
+</table>
+  </div>
+  </div>
+  <div class="column right" style="background-color:#bbb;">
+    <form>
+  <div class="container">
+    <h2>Leave me your Feedback on this website</h2></div>
+<div class="container" style="background-color:white">
+    <input type="text" placeholder="Name" name="name" required>
+    <input type="text" placeholder="Email address" name="mail" required>
+   <input type="text" placeholder="Contact no">
+<textarea rows="5" cols="100" placeholder="Leave comments and suggestions for improvement of this site"></textarea> 
+ <input style="background-color: #736AFF;" type="submit" value="SUBMIT">
+</div> 
+</form>
+</div>
+</a>
+
+<br><br><br><br><br>
+ <footer>
+<br>
+            <div class="container footer1 footer2">
+
+            	 <a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter" id="twitter"></a>
+<a href="#" class="fa fa-google" id="google"></a>
+<a href="#" class="fa fa-youtube" id="youtube"></a>
+<a href="#" class="fa fa-instagram" id="insta"></a>
+
+            <pre> Copyright (c) WT internationals. All Rights Reserved | <a href="www.wtinternations.com">OFFICIAL WT-Internations website</a>  </pre> 
+            
+
+            
+               </div>  
+        </footer>
+</body>
+</html>

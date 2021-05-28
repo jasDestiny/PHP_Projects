@@ -1,0 +1,1 @@
+numberOfFactors[num]+=1
